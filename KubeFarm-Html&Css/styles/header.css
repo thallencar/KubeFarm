@@ -127,12 +127,12 @@
   .opcoes__link {
     display: flex;
     color: var(--beje);
-    padding: 0.8em 0.8em;
+    padding: 0.6em 0.8em;
     align-items: first baseline;
     text-decoration: none;
     margin-left: auto;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .cabecalho__menu-hamburguer {
@@ -142,7 +142,7 @@
   .container__titulo,
   .container__titulo--negrito {
     font-family: var(--fonte-principal);
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .container__titulo {
@@ -152,7 +152,7 @@
   }
 
   .container__imagem__logo {
-    width: 50px;
+    width: 45px;
     margin-left: 20px;
   }
 
@@ -203,5 +203,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  
+
+/* o header ficou padrão tanto para ipad quanto para desktop */
+
 }
