@@ -283,3 +283,83 @@
 
 
 }
+
+@media screen and (min-width: 1024px) {
+
+  .img-1 {
+    height: 80vh;
+  }
+
+  .img-1__titulo {
+    font-size: 64px;
+    top: 1.5em;
+    left: 2em;
+  }
+
+  .img-1__subtitulo {
+    font-size: 48px;
+    top: 3.2em;
+    left: 2.7em;
+  }
+
+  .img-1__texto {
+    padding: 25px 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .img-2 {
+    height: 80vh;
+  }
+
+  .img-2__texto, .img-2__texto-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 150px;
+    font-size: 20px;
+  }
+
+  .img-1__texto {
+    color: var(--beje);
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+  }
+
+  .botao {
+    padding: 80px;
+  }
+
+  .botao__saiba-mais a {
+    padding: 1.7em 3.5em;
+    font-size: 20px;
+    opacity: 1.0;
+  }
+
+  .botao__saiba-mais a:hover {
+    background-color: var(--verde-escuro);
+    opacity: 0.8;
+  }
+
+  .formulario_contato {
+    padding: 70px 200px;
+  }
+
+  .formulario_contato h2 {
+    font-size: 48px;
+  }
+
+  .botao-contato-submit input[type="submit"] {
+    padding: 20px 70px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .botao-contato-submit input[type="submit"]:hover {
+    background-color: var(--verde-claro);
+  }
+  
+  
+}
