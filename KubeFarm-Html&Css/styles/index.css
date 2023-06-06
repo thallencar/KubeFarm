@@ -204,3 +204,45 @@
 .botao-submit {
   text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .img-1 {
+    height: 60vh;
+  }
+
+  .img-1__titulo {
+    font-size: 48px;
+    top: 1.5em;
+    left: 2em;
+  }
+
+  .img-1__subtitulo {
+    font-size: 36px;
+    top: 3.2em;
+    left: 2.7em;
+  }
+  
+  .img-1__texto {
+    padding: 25px 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .img-2 {
+    height: 60vh;
+  }
+  
+  .img-2__texto {
+    padding: 25px 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .img-2__texto-2 {
+    padding: 25px 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+  
+
+}
