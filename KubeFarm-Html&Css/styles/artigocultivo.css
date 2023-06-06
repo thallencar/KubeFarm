@@ -131,3 +131,81 @@
   margin: 0 20px;
   padding: 20px 0;
 }
+
+@media screen and (min-width: 1024px) {
+  .art-cultivo,
+  .art-cultivo-4__img-2,
+  .art-cultivo-5__img-3,
+  .art-cultivo-6__img-4,
+  .art-cultivo-7__img-5,
+  .art-cultivo-8__img-6,
+  .art-cultivo-9__img-7{
+    height: 60vh;
+  }
+
+  .art-cultivo__titulo{
+    font-size: 24px;
+    top: 2.2em;
+    left: 1.5em;
+  }
+
+  .art-cultivo__subtitulo{
+    font-size: 24px;
+    top: 3.3em;
+    left: 1.5em;
+  }
+
+  .texto-art-cultivo__texto,
+  .texto-2-art-cultivo__texto,
+  .texto-3-art-cultivo__texto,
+  .texto-4-art-cultivo__texto,
+  .texto-5-art-cultivo__texto,
+  .texto-6-art-cultivo__texto,
+  .texto-7-art-cultivo__texto,
+  .texto-8-art-cultivo__texto,
+  .conclusao-art-cultivo__texto{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .art-cultivo,
+  .art-cultivo-4__img-2,
+  .art-cultivo-5__img-3,
+  .art-cultivo-6__img-4,
+  .art-cultivo-7__img-5,
+  .art-cultivo-8__img-6,
+  .art-cultivo-9__img-7{
+    height: 80vh;
+  }
+
+  .art-cultivo__titulo{
+    font-size: 40px;
+    top: 1.5em;
+    left: 1.5em;
+  }
+
+  .art-cultivo__subtitulo{
+    font-size: 40px;
+    top: 2.4em;
+    left: 1.5em;
+  }
+
+  .texto-art-cultivo__texto,
+  .texto-2-art-cultivo__texto,
+  .texto-3-art-cultivo__texto,
+  .texto-4-art-cultivo__texto,
+  .texto-5-art-cultivo__texto,
+  .texto-6-art-cultivo__texto,
+  .texto-7-art-cultivo__texto,
+  .texto-8-art-cultivo__texto,
+  .conclusao-art-cultivo__texto{
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 55px 0 1;
+  }
+
+}
