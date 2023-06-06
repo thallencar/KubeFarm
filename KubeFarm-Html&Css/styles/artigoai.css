@@ -178,24 +178,24 @@
     opacity: 0.8;
   }
   .art-ai__titulo{
-    font-size: 38px;
+    font-size: 36px;
     top: 2.2em;
     left: 24.5em;
     right: 1.5em;
     text-align: right;   
   }
   .art-ai__subtitulo{
-    font-size: 31px;
+    font-size: 29px;
     top: 5.5em;
-    left: 30.1em;
+    left: 33.1em;
   }
   .texto-art-ai__texto, .texto-2-art-ai__texto, .texto-2-art-ai__texto, .texto-3-art-ai__texto, .texto-4-art-ai__texto, .texto-5-art-ai__texto,  .texto-6-art-ai__texto, .texto-7-art-ai__texto, .conclusao-art-ai__texto{
-    font-size: 22px;
+    font-size: 20px;
     margin: 0 25px;
     padding: 55px 0;
   }
   .texto-2-art-ai__titulo{
-    font-size: 22px;
+    font-size: 20px;
     margin: 0 25px;
     padding: 55px 0 0;
   }
