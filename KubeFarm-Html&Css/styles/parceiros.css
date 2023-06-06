@@ -119,3 +119,41 @@
     margin: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+
+  .art-parceiros-1,
+  .art-parceiros-2,
+  .art-parceiros-3,
+  .art-parceiros-4,
+  .art-parceiros-5{
+    height: 80vh;
+  }
+
+  .texto-2-art-parceiros__titulo,
+  .texto-1-art-parceiros__titulo
+  .texto-3-art-parceiros__titulo,
+  .texto-4-art-parceiros__titulo,
+  .texto-5-art-parceiros__titulo{
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 55px 1 0;
+  }
+
+
+  .texto-2-art-parceiros__texto,
+  .texto-3-art-parceiros__texto,
+  .texto-4-art-parceiros__texto,
+  .texto-5-art-parceiros__texto,
+  .texto-1-art-parceiros__texto{
+    font-size: 18px;
+    margin-top: 0px;
+    margin: 0 25px;
+    padding: 55px 0 1;
+  }
+
+  .texto-1-art-parceiros{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
