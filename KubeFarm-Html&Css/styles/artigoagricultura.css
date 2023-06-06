@@ -131,3 +131,73 @@
   margin: 0 20px;
   padding: 20px 0;
 }
+
+@media screen and (min-width: 1024px) {
+  html, body{
+    height: 100%;
+  }
+  .art-agricultura__titulo{
+    font-size: 27px;
+    top: 2.2em;
+    left: 1.5em;
+  }
+  .art-agricultura__subtitulo{
+    font-size: 27px;
+    top: 3.3em;
+    left: 1.5em;
+  }
+  .art-agricultura__subtitulo-2{
+    font-size: 27px;
+    top: 4.4em;
+    left: 1.5em;
+  }
+  .art-agricultura{
+    height: 60vh;
+  }
+  .art-agricultura__img{
+    opacity: 0.7;
+    min-height: 100%;
+  }
+  .texto-art-agricultura__texto{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0;
+
+  }
+  .texto-2-art-agricultura__texto{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0;
+  }
+  .art-agricultura-2__img-2{
+    height: 60vh;
+  }
+  .texto-3-art-agricultura__titulo{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0 10px;
+  }
+  .texto-3-art-agricultura__texto{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0;
+  }
+  .art-agricultura-3__img-3{
+    height: 60vh;
+  }
+  .texto-3-art-agricultura__titulo{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0 10px;
+  }
+  .texto-3-art-agricultura__texto{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0;
+  }
+  .conclusao-art-agricultura__texto{
+    font-size: 16px;
+    margin: 0 25px;
+    padding: 35px 0;
+  }
+}
