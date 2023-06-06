@@ -37,7 +37,7 @@
 
 .img-1__texto {
   color: var(--beje);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -66,7 +66,7 @@
 
 .img-2__texto {
   color: var(--verde-escuro);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -78,7 +78,7 @@
   background-color: var(--beje);
   background-size: cover;
   color: var(--verde-escuro);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -156,9 +156,9 @@
 .formulario_contato h2 {
   margin-bottom: 20px;
   font-family: var(--fonte-principal);
-  font-size: 26px;
+  font-size: 22px;
   color: var(--verde-escuro);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .formulario_contato form {
@@ -168,7 +168,7 @@
 
 .formulario_contato label {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--verde-escuro);
 }
@@ -272,14 +272,14 @@
     padding: 20px 50px;
     margin-top: 50px;
   }
-  
+
   .botao-contato-submit input[type="submit"]:hover {
     background-color: var(--verde-secundario);
   }
-  
+
   .botao-contato-submit {
     text-align: center;
   }
-  
-  
+
+
 }

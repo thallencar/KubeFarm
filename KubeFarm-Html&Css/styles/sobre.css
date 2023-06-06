@@ -189,3 +189,57 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .img-sobre {
+    height: 60vh;
+  }
+  
+  .img-sobre__titulo {
+    font-size: 26px;
+    top: 2em;
+    left: 20.5em;
+  }
+  
+  .img-sobre__subtitulo {
+    font-size: 26px;
+    top: 3.1em;
+    left: 24.1em;
+  }
+  
+  .img-sobre__subtitulo-2 {
+    font-size: 26px;
+    top: 4.2em;
+    left: 27em;
+  }
+  
+  .botao-comunidade {
+    top: 25em;
+    left: 50em;
+  }
+  
+  .botao-comunidade a {
+    padding: 1em 3em;
+    font-size: 16px;
+  }
+  
+  .botao-escola {
+    top: 25em;
+    left: 36em;
+  }
+  
+  .botao-escola a {
+    padding: 1em 3.5em;
+    font-size: 16px;
+  }
+
+  .sobre-img-2 {  
+    height: 70vh;
+  }
+
+  .sobre-img-3, .sobre-img-4 {
+    height: 60vh;
+  }
+
+}
