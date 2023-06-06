@@ -36,7 +36,7 @@
 .texto-1-art-parceiros__texto,
 .texto-5-art-parceiros__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -64,7 +64,7 @@
 .texto-3-art-parceiros__texto,
 .texto-4-art-parceiros__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -75,7 +75,7 @@
 .texto-3-art-parceiros__titulo,
 .texto-4-art-parceiros__titulo {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -134,7 +134,7 @@
   .texto-3-art-parceiros__titulo,
   .texto-4-art-parceiros__titulo,
   .texto-5-art-parceiros__titulo{
-    font-size: 22px;
+    font-size: 16px;
     margin: 0 25px;
     padding: 55px 1 0;
   }
@@ -145,7 +145,7 @@
   .texto-4-art-parceiros__texto,
   .texto-5-art-parceiros__texto,
   .texto-1-art-parceiros__texto{
-    font-size: 22px;
+    font-size: 16px;
     margin-top: 0px;
     margin: 0 25px;
     padding: 55px 0 1;

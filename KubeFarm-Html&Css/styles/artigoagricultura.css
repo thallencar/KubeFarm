@@ -46,7 +46,7 @@
 
 .texto-art-agricultura__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -60,7 +60,7 @@
 
 .texto-2-art-agricultura__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -102,7 +102,7 @@
 
 .texto-3-art-agricultura__titulo {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -111,7 +111,7 @@
 
 .texto-3-art-agricultura__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -125,7 +125,7 @@
 
 .conclusao-art-agricultura__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -139,17 +139,17 @@
   .art-agricultura__titulo{
     font-size: 27px;
     top: 2.2em;
-    left: 1.5em;
+    left: 1em;
   }
   .art-agricultura__subtitulo{
-    font-size: 27px;
-    top: 3.3em;
-    left: 1.5em;
+    font-size: 22px;
+    top: 4em;
+    left: 1.2em;
   }
   .art-agricultura__subtitulo-2{
-    font-size: 27px;
-    top: 4.4em;
-    left: 1.5em;
+    font-size: 22px;
+    top: 5em;
+    left: 1.2em;
   }
   .art-agricultura, .art-agricultura-2__img-2, .art-agricultura-3__img-3{
     height: 60vh;
@@ -183,7 +183,7 @@
   .art-agricultura__subtitulo{
     font-size: 38px;
     top: 3.3em;
-    left: 1.5em;
+    left: 1.4em;
   }
   .art-agricultura__subtitulo-2{
     font-size: 38px;
@@ -198,13 +198,13 @@
     min-height: 100%;
   }
   .texto-art-agricultura__texto, .texto-2-art-agricultura__texto, .texto-3-art-agricultura__texto, .texto-3-art-agricultura__texto,  .conclusao-art-agricultura__texto{
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 25px;
     padding: 55px 0;
 
   }
-  .texto-3-art-agricultura__titulo,  .texto-3-art-agricultura__titulo{
-    font-size: 20px;
+  .texto-3-art-agricultura__titulo, .texto-3-art-agricultura__titulo {
+    font-size: 16px;
     margin: 0 25px;
     padding: 55px 0 0px;
   }

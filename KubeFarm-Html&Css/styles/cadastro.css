@@ -25,11 +25,13 @@
   margin-left: 2.5em;
   margin-top: 10px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .formulario {
   max-width: 100%;
-  margin-right: 20px;
+  padding: 0 15px;
+  margin-right: 1em;
 }
 
 .formulario label {
@@ -37,7 +39,7 @@
   margin-bottom: 5px;
   font-family: var(--fonte-principal);
   color: var(--verde-escuro);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -64,6 +66,7 @@
   cursor: pointer;
   border-radius: 10px;
   opacity: 0.9;
+  margin-top: 1em;
 }
 
 .botao-submit input[type="submit"]:hover {
@@ -87,14 +90,24 @@
 
   .cadastro__titulo {
     font-size: 36px;
-    margin-left: auto;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 40px;
+  }
+
+  .formulario {
+    max-width: 100%;
+    padding: 0 100px;
+  }
+
+  .formulario label {
+    font-size: 16px;
   }
 
   .botao-submit input[type="submit"] {
     padding: 1em 3.5em;
     opacity: 1.0;
+    margin-top: 1em;
   }
 
   .botao-submit input[type="submit"]:hover {
@@ -106,3 +119,12 @@
   }
 
 }
+
+@media screen and (min-width: 1440px) {
+  .cadastro__titulo {
+    font-size: 40px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+} 

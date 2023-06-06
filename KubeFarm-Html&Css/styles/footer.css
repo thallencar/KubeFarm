@@ -135,21 +135,21 @@
 @media screen and (min-width: 1024px) {
   .rodape__titulo{
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .lista-rodape__item img{
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+    width: 40px;
+    height: auto;
+    margin: 5px;
   }
   .rodape__titulo-2{
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .lista-rodape__item-2,
   .lista-rodape__item-3{
     width: 50px;
-    height: 50px;
+    height: auto;
     margin: 30px;
   }
   .lista-rodape-2{
@@ -162,7 +162,7 @@
   }
   .titulo-integrantes{
     position:absolute;
-    font-size: 18px;
+    font-size: 16px;
   }
   .lista-integrantes{
     position: relative;
@@ -170,7 +170,7 @@
     margin-top: 20px;
   }
   .lista-integrantes a{
-    font-size: 18px;
+    font-size: 16px;
   }
   .logo-kubefarm{
     margin-right: 10px;
@@ -180,22 +180,22 @@
 @media screen and (min-width: 1440px) {
   .rodape__titulo{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .lista-rodape__item img{
-    width: 70px;
-    height: 70px;
-    margin: 10px;
+    width: 50px;
+    height: auto;
+    margin: 8px;
   }
 
   .rodape__titulo-2{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .lista-rodape__item-2,
   .lista-rodape__item-3{
     width: 80px;
-    height: 20px;
+    height: auto;
     margin: 40px;
     align-items: center;
   }
@@ -230,7 +230,7 @@
   
   .titulo-integrantes{
     position:absolute;
-    font-size: 20px;
+    font-size: 16px;
   }
   .lista-integrantes{
     position: relative;
@@ -238,7 +238,7 @@
     margin-top: 20px;
   }
   .lista-integrantes a{
-    font-size: 20px;
+    font-size: 16px;
   }
   .integrantes{
     max-width: 100%;
@@ -247,7 +247,8 @@
     margin-right: 10px;
   }
   .logo-kubefarm img{
-    width: 130px;
-    height: auto;
+    height: 70vh;
+    width: auto;
+    padding: 40px 20px;
   }
 }

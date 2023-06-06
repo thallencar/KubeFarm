@@ -227,6 +227,7 @@
     padding: 25px 20px;
     margin-left: 20px;
     margin-right: 10px;
+    font-size: 16px;
   }
 
   .img-2 {
@@ -237,12 +238,14 @@
     padding: 25px 20px;
     margin-left: 20px;
     margin-right: 10px;
+    font-size: 16px;
   }
 
   .img-2__texto-2 {
     padding: 25px 20px;
     margin-left: 20px;
     margin-right: 10px;
+    font-size: 16px;
   }
 
   .botao {
@@ -268,6 +271,11 @@
     font-size: 30px;
   }
 
+  .formulario_contato label {
+    font-size: 16px;
+  }
+
+
   .botao-contato-submit input[type="submit"] {
     padding: 20px 50px;
     margin-top: 50px;
@@ -284,7 +292,7 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
 
   .img-1 {
     height: 80vh;
@@ -312,35 +320,21 @@
     height: 80vh;
   }
 
-  .img-2__texto, .img-2__texto-2 {
+  .img-2__texto,
+  .img-2__texto-2 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 150px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .img-1__texto {
     color: var(--beje);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 100px;
-  }
-
-  .botao {
-    padding: 80px;
-  }
-
-  .botao__saiba-mais a {
-    padding: 1.7em 3.5em;
-    font-size: 20px;
-    opacity: 1.0;
-  }
-
-  .botao__saiba-mais a:hover {
-    background-color: var(--verde-escuro);
-    opacity: 0.8;
   }
 
   .formulario_contato {
@@ -348,18 +342,10 @@
   }
 
   .formulario_contato h2 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
-  .botao-contato-submit input[type="submit"] {
-    padding: 20px 70px;
-    margin-top: 50px;
-    font-size: 20px;
-  }
 
-  .botao-contato-submit input[type="submit"]:hover {
-    background-color: var(--verde-claro);
-  }
-  
-  
+
+
 }

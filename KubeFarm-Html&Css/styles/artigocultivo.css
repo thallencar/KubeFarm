@@ -51,7 +51,7 @@
 
 .texto-2-art-cultivo__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -65,7 +65,7 @@
 
 .texto-3-art-cultivo__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -111,7 +111,7 @@
 .texto-8-art-cultivo__texto,
 .texto-9-art-cultivo__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -125,7 +125,7 @@
 
 .conclusao-art-cultivo__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -144,15 +144,15 @@
   }
 
   .art-cultivo__titulo{
-    font-size: 24px;
-    top: 2.2em;
-    left: 1.5em;
+    font-size: 27px;
+    top: 1.2em;
+    left: 1em;
   }
 
   .art-cultivo__subtitulo{
-    font-size: 24px;
-    top: 3.3em;
-    left: 1.5em;
+    font-size: 22px;
+    top: 2.7em;
+    left: 1.2em;
   }
 
   .texto-art-cultivo__texto,
@@ -183,14 +183,14 @@
   }
 
   .art-cultivo__titulo{
-    font-size: 40px;
-    top: 1.5em;
+    font-size: 38px;
+    top: 0.7em;
     left: 1.5em;
   }
 
   .art-cultivo__subtitulo{
-    font-size: 40px;
-    top: 2.4em;
+    font-size: 38px;
+    top: 1.5em;
     left: 1.5em;
   }
 
@@ -203,9 +203,9 @@
   .texto-7-art-cultivo__texto,
   .texto-8-art-cultivo__texto,
   .conclusao-art-cultivo__texto{
-    font-size: 22px;
+    font-size: 16px;
     margin: 0 25px;
-    padding: 55px 0 ;
+    padding: 40px 0 ;
   }
 
 }

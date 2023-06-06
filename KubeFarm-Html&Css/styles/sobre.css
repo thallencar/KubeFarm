@@ -104,7 +104,7 @@
 
 .texto-sobre__titulo {
   font-family: var(--fonte-principal);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--beje);
   text-align: center;
@@ -114,7 +114,7 @@
 
 .texto-sobre__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin-left: 20px;
@@ -145,7 +145,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-secundario);
 }
@@ -173,7 +173,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-secundario);
 }
@@ -242,4 +242,58 @@
     height: 60vh;
   }
 
+}
+
+@media screen and (min-width: 1440px) {
+
+
+  .img-sobre {
+    height: 80vh;
+  }
+  
+  .img-sobre__titulo {
+    font-size: 36px;
+    top: 2em;
+    right: auto;
+  }
+  
+  .img-sobre__subtitulo {
+    font-size: 36px;
+    top: 3.1em;
+    right: auto;
+  }
+  
+  .img-sobre__subtitulo-2 {
+    font-size: 36px;
+    top: 4.2em;
+    right: auto;
+  }
+  
+  .botao-comunidade {
+    top: 32em;
+    left: 71.5em;
+  }
+  
+  .botao-comunidade a {
+    padding: 1em 3em;
+    font-size: 16px;
+  }
+  
+  .botao-escola {
+    top: 32em;
+    left: 56em;
+  }
+  
+  .botao-escola a {
+    padding: 1em 3.5em;
+    font-size: 16px;
+  }
+
+  .sobre-img-2 {  
+    height: 80vh;
+  }
+
+  .sobre-img-3, .sobre-img-4 {
+    height: 80vh;
+  }
 }

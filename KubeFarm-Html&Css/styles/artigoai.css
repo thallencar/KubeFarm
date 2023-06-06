@@ -18,7 +18,7 @@
   font-weight: 700;
   position: absolute;
   top: 2em;
-  left: 4.5em;
+  left: 1em;
 }
 
 .art-ai__subtitulo {
@@ -27,7 +27,7 @@
   font-weight: 400;
   position: absolute;
   top: 3.1em;
-  left: 8.4em;
+  left: 1em;
 }
 
 .texto-art-ai {
@@ -37,7 +37,7 @@
 
 .texto-art-ai__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -51,7 +51,7 @@
 
 .texto-2-art-ai__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -60,7 +60,7 @@
 
 .texto-2-art-ai__titulo {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -74,7 +74,7 @@
 
 .texto-3-art-ai__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -114,7 +114,7 @@
 .texto-6-art-ai__texto,
 .texto-7-art-ai__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--verde-escuro);
   margin: 0 20px;
@@ -128,7 +128,7 @@
 
 .conclusao-art-ai__texto {
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--beje);
   margin: 0 20px;
@@ -145,14 +145,21 @@
   .art-ai__titulo{
     font-size: 27px;
     top: 2.2em;
-    left: 24.5em;
-    right: 1.5em;
+    left: 1em;
     text-align: right;   
   }
   .art-ai__subtitulo{
     font-size: 22px;
-    top: 5.5em;
-    left: 30.1em;
+    top: 4em;
+    left: 1.2em;
+  }
+
+  .art-ai__img {
+    opacity: 1.0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
   }
   .texto-art-ai__texto, .texto-2-art-ai__texto, .texto-2-art-ai__texto, .texto-3-art-ai__texto, .texto-4-art-ai__texto, .texto-5-art-ai__texto,  .texto-6-art-ai__texto, .texto-7-art-ai__texto, .conclusao-art-ai__texto{
     font-size: 16px;
@@ -180,22 +187,21 @@
   .art-ai__titulo{
     font-size: 36px;
     top: 2.2em;
-    left: 24.5em;
-    right: 1.5em;
+    left: 1em;
     text-align: right;   
   }
   .art-ai__subtitulo{
     font-size: 29px;
-    top: 5.5em;
-    left: 33.1em;
+    top: 4em;
+    left: 1.2em;
   }
   .texto-art-ai__texto, .texto-2-art-ai__texto, .texto-2-art-ai__texto, .texto-3-art-ai__texto, .texto-4-art-ai__texto, .texto-5-art-ai__texto,  .texto-6-art-ai__texto, .texto-7-art-ai__texto, .conclusao-art-ai__texto{
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 25px;
     padding: 55px 0;
   }
   .texto-2-art-ai__titulo{
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 25px;
     padding: 55px 0 0;
   }
