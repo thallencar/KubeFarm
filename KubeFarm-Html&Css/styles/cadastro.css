@@ -90,7 +90,7 @@
 
   .cadastro__titulo {
     font-size: 36px;
-    align-items: center;
+    margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -123,8 +123,13 @@
 @media screen and (min-width: 1440px) {
   .cadastro__titulo {
     font-size: 40px;
-    align-items: center;
+    margin-left: 300px;
     margin-top: 10px;
     margin-bottom: 40px;
+  }
+
+  .formulario {
+    max-width: 100%;
+    padding: 0 300px;
   }
 } 
