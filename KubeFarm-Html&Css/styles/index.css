@@ -183,7 +183,7 @@
   opacity: 0.8;
 }
 
-.botao-submit input[type="submit"] {
+.botao-contato-submit input[type="submit"] {
   background-color: var(--verde-escuro);
   font-family: var(--fonte-principal);
   font-size: 16px;
@@ -193,15 +193,15 @@
   padding: 15px 40px;
   cursor: pointer;
   border-radius: 10px;
-  opacity: 0.9;
+  opacity: 1.0;
   margin-top: 20px;
 }
 
-.botao-submit input[type="submit"]:hover {
+.botao-contato-submit input[type="submit"]:hover {
   background-color: var(--verde-secundario);
 }
 
-.botao-submit {
+.botao-contato-submit {
   text-align: center;
 }
 
@@ -267,5 +267,19 @@
   .formulario_contato h2 {
     font-size: 30px;
   }
+
+  .botao-contato-submit input[type="submit"] {
+    padding: 20px 50px;
+    margin-top: 50px;
+  }
+  
+  .botao-contato-submit input[type="submit"]:hover {
+    background-color: var(--verde-secundario);
+  }
+  
+  .botao-contato-submit {
+    text-align: center;
+  }
+  
   
 }
