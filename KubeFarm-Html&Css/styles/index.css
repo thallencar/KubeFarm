@@ -1,0 +1,206 @@
+.img-1 {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.img-1__img {
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.img-1__titulo {
+  color: var(--verde-escuro);
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.img-1__subtitulo {
+  color: var(--verde-escuro);
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  top: 2.8em;
+  left: 1.3em;
+}
+
+.img-1__background {
+  background-color: var(--verde-secundario);
+  background-size: 100%;
+}
+
+.img-1__texto {
+  color: var(--beje);
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.img-2 {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+
+.img-2__img {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.img-2__background {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.img-2__texto {
+  color: var(--verde-escuro);
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.img-2__texto-2 {
+  background-color: var(--beje);
+  background-size: cover;
+  color: var(--verde-escuro);
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.botao {
+  position: relative;
+  padding: 30px;
+}
+
+.botao__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/index-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.botao__saiba-mais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao__saiba-mais a {
+  text-decoration: none;
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+  font-weight: 500;
+  padding: 1.5em 2.2em;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.botao__saiba-mais a:hover {
+  background-color: var(--verde-escuro);
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+.formulario_contato {
+  position: relative;
+  padding: 20px 20px;
+}
+
+.formulario__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../backgound/background-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.formulario-formulario {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.formulario_contato h2 {
+  margin-bottom: 20px;
+  font-family: var(--fonte-principal);
+  font-size: 26px;
+  color: var(--verde-escuro);
+  font-weight: 700;
+}
+
+.formulario_contato form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.formulario_contato label {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--verde-escuro);
+}
+
+.formulario_contato input[type="text"],
+.formulario_contato input[type="email"],
+.formulario_contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid var(--verde-escuro);
+  background-color: var(--verde-claro);
+  opacity: 0.8;
+}
+
+.botao-submit input[type="submit"] {
+  background-color: var(--verde-escuro);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--branco);
+  border: none;
+  padding: 15px 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+
+.botao-submit input[type="submit"]:hover {
+  background-color: var(--verde-secundario);
+}
+
+.botao-submit {
+  text-align: center;
+}

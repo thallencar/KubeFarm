@@ -1,0 +1,136 @@
+.art-ai {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.art-ai__img {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.art-ai__titulo {
+  color: var(--beje);
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top: 2em;
+  left: 4.5em;
+}
+
+.art-ai__subtitulo {
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 3.1em;
+  left: 8.4em;
+}
+
+.texto-art-ai {
+  background-color: var(--verde-escuro);
+  background-size: 100%;
+}
+
+.texto-art-ai__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.texto-2-art-ai {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.texto-2-art-ai__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.texto-2-art-ai__titulo {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0 0 0;
+}
+
+.texto-3-art-ai {
+  background-color: var(--verde-secundario);
+  background-size: 100%;
+}
+
+.texto-3-art-ai__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.art-ai-2__img-2,
+.art-ai-4__img-3,
+.art-ai-5__img-4,
+.art-ai-6__img-5,
+.art-ai-7__img-6 {
+  width: 100%;
+  height: 20vh;
+}
+
+.art-ai__img-2,
+.art-ai__img-3,
+.art-ai__img-4,
+.art-ai__img-5,
+.art-ai__img-6 {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-4-art-ai,
+.texto-5-art-ai,
+.texto-6-art-ai,
+.texto-7-art-ai {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.texto-4-art-ai__texto,
+.texto-5-art-ai__texto,
+.texto-6-art-ai__texto,
+.texto-7-art-ai__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.conclusao-art-ai {
+  background-color: var(--verde-secundario);
+  background-size: 100%;
+}
+
+.conclusao-art-ai__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}

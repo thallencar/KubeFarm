@@ -1,0 +1,133 @@
+.art-cultivo {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.art-cultivo__img {
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.art-cultivo__titulo {
+  color: var(--verde-escuro);
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top: 2em;
+  left: 1.5em;
+}
+
+.art-cultivo__subtitulo {
+  color: var(--verde-secundario);
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 3.1em;
+  left: 1.5em;
+}
+
+.texto-art-cultivo {
+  background-color: var(--verde-escuro);
+  background-size: 100%;
+}
+
+.texto-art-cultivo__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.texto-2-art-cultivo {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.texto-2-art-cultivo__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.texto-3-art-cultivo {
+  background-color: var(--verde-secundario);
+  background-size: 100%;
+}
+
+.texto-3-art-cultivo__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.art-cultivo-4__img-2,
+.art-cultivo-5__img-3,
+.art-cultivo-6__img-4,
+.art-cultivo-7__img-5,
+.art-cultivo-8__img-6,
+.art-cultivo-9__img-7 {
+  width: 100%;
+  height: 30vh;
+}
+
+.art-cultivo__img-2,
+.art-cultivo__img-3,
+.art-cultivo__img-4,
+.art-cultivo__img-5,
+.art-cultivo__img-6,
+.art-cultivo__img-7 {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-4-art-cultivo,
+.texto-5-art-cultivo,
+.texto-6-art-cultivo,
+.texto-7-art-cultivo,
+.texto-8-art-cultivo,
+.texto-9-art-cultivo {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.texto-4-art-cultivo__texto,
+.texto-5-art-cultivo__texto,
+.texto-6-art-cultivo__texto,
+.texto-7-art-cultivo__texto,
+.texto-8-art-cultivo__texto,
+.texto-9-art-cultivo__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.conclusao-art-cultivo {
+  background-color: var(--verde-secundario);
+  background-size: 100%;
+}
+
+.conclusao-art-cultivo__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}

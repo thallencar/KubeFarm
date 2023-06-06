@@ -1,0 +1,26 @@
+@import url(styles/header.css);
+@import url(styles/index.css);
+@import url(styles/footer.css);
+@import url(styles/sobre.css);
+@import url(styles/artigoagricultura.css);
+@import url(styles/artigocultivo.css);
+@import url(styles/artigoai.css);
+@import url(styles/parceiros.css);
+@import url(styles/cadastro.css);
+
+:root {
+  --fonte-principal: "Poppins";
+  --fonte-secundaria: "Josefin Sans";
+  --branco: #ffffff;
+  --beje: #edf1d6;
+  --verde-escuro: #236700;
+  --verde-secundario: #609966;
+  --verde-claro: #9DC08B;
+  --preto: #000000;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}

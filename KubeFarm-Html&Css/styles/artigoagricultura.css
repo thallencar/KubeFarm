@@ -1,0 +1,133 @@
+.art-agricultura {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.art-agricultura__img {
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.art-agricultura__titulo {
+  color: var(--verde-escuro);
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top: 2em;
+  left: 1.5em;
+}
+
+.art-agricultura__subtitulo {
+  color: var(--verde-secundario);
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 3.1em;
+  left: 1.5em;
+}
+
+.art-agricultura__subtitulo-2 {
+  color: var(--verde-secundario);
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 4.2em;
+  left: 1.5em;
+}
+
+.texto-art-agricultura {
+  background-color: var(--verde-escuro);
+  background-size: 100%;
+}
+
+.texto-art-agricultura__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.texto-2-art-agricultura {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.texto-2-art-agricultura__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.art-agricultura-2__img-2 {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+}
+
+.art-agricultura__img-2 {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.art-agricultura-3__img-3 {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+}
+
+.art-agricultura__img-3 {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.texto-3-art-agricultura {
+  background-color: var(--beje);
+  background-size: 100%;
+}
+
+.texto-3-art-agricultura__titulo {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding-top: 20px;
+}
+
+.texto-3-art-agricultura__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--verde-escuro);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.conclusao-art-agricultura {
+  background-color: var(--verde-secundario);
+  background-size: 100%;
+}
+
+.conclusao-art-agricultura__texto {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--beje);
+  margin: 0 20px;
+  padding: 20px 0;
+}
