@@ -1,4 +1,8 @@
 # KubeFarm
+<p align="center">
+ <img src="./assets/figma-kube-farm.png" width="100%" />
+</p>
+
 <b>
 Projeto Kube Farm
 O Projeto Kube Farm tem como objetivo fomentar o acesso de pessoas a
