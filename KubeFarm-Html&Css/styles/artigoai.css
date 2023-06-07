@@ -177,9 +177,27 @@
 }
 
 @media screen and (min-width: 1440px) {
+
   body, html{
     height: 100%;
+    overflow-y: scroll;
   }
+
+    
+  ::-webkit-scrollbar{
+    width: 14px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background-color:var(--beje);
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color:#044602;
+    border-radius: 50px;   
+    
+  }
+
   .art-ai{
     height: 80vh;
     opacity: 0.8;
@@ -195,17 +213,44 @@
     top: 4em;
     left: 1.2em;
   }
-  .texto-art-ai__texto, .texto-2-art-ai__texto, .texto-2-art-ai__texto, .texto-3-art-ai__texto, .texto-4-art-ai__texto, .texto-5-art-ai__texto,  .texto-6-art-ai__texto, .texto-7-art-ai__texto, .conclusao-art-ai__texto{
+  .container_1{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .texto-art-ai__texto, .texto-2-art-ai__texto, .texto-2_1-art-ai__texto, .texto-3-art-ai__texto, .texto-4-art-ai__texto, .texto-5-art-ai__texto,  .texto-6-art-ai__texto, .texto-7-art-ai__texto, .conclusao-art-ai__texto{
     font-size: 16px;
     margin: 0 25px;
-    padding: 55px 0;
+    padding: 75px 0;
   }
   .texto-2-art-ai__titulo{
     font-size: 16px;
     margin: 0 25px;
     padding: 55px 0 0;
   }
-  .art-ai-2__img-2, .art-ai-4__img-3, .art-ai-5__img-4, .art-ai-6__img-5, .art-ai-7__img-6{
-    height: 80vh;
+
+  .art-ai-2__img-2{
+    flex-shrink: 0;
+    width: 80vh;
+    
   }
+   .art-ai-4__img-3, .art-ai-5__img-4, .art-ai-6__img-5, .art-ai-7__img-6{
+    height: 80vh;
+    width: 100vh;
+  }
+
+  .textos_ai{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto-art-ai, .texto-2-art-ai{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    font-size: 16px;
+    padding: 58px 0 0;
+    
+  }
+
 }
