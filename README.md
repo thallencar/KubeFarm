@@ -1,11 +1,13 @@
 # KubeFarm
+<p>Print de parte do Figma do projeto KubeFarm (formato mobile). O html e css foram desenvolvidos com responsividade pelo conceito de mobile-first, utilizamos como
+ referência os protótipos de modelo de iphone 12 pro (390 x 844) para fazer o responsivo em formato de celular, modelo de ipad pro (1024 x 1366) e por fim desktop com telas acima de 1440💻
 <p align="center">
- <img src="./assets/figma-kube-farm.png" width="100%" />
+ <img src="KubeFarm-Html&Css/assets/figma-kube-farm.png" width="80%"/>
 </p>
 
 <b>
-Projeto Kube Farm
-O Projeto Kube Farm tem como objetivo fomentar o acesso de pessoas a
+<h1>Sobre o projeto</h1>
+A Kube Farm tem como objetivo fomentar o acesso de pessoas a
 uma dieta alimentar saudável, natural e livre de agrotóxicos, seja para escolas
 públicas, comunidades carentes, quilombolas, regiões afetadas pelo clima ou de
 extrema pobreza, através da agricultura inteligente (também denominada agricultura
