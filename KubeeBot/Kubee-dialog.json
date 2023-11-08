@@ -1,0 +1,1060 @@
+{
+  "intents": [
+    {
+      "intent": "cadastro",
+      "examples": [
+        {
+          "text": "Como eu faço para fazer meu cadastro?"
+        },
+        {
+          "text": "Estou interessado em me tornar um membro registrado."
+        },
+        {
+          "text": "Gostaria de fazer meu cadastro em seu sistema. Como posso começar o processo?"
+        },
+        {
+          "text": "Quero criar uma conta."
+        },
+        {
+          "text": "Quero me registrar na Kube Farm"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "encerrar_atendimento",
+      "examples": [
+        {
+          "text": "Gostaria de encerrar a conversa agora."
+        },
+        {
+          "text": "Já obtive as informações que precisava. Podemos finalizar."
+        },
+        {
+          "text": "Não tenho mais dúvidas, obrigado. Podemos encerrar."
+        },
+        {
+          "text": "Obrigado por sua assistência, podemos encerrar agora."
+        },
+        {
+          "text": "Por favor, encerre o atendimento."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fazer_plantio",
+      "examples": [
+        {
+          "text": "Gostaria de saber quais são os passos para fazer o plantio corretamente."
+        },
+        {
+          "text": "Poderia me dar informações sobre o plantio da Kube Farm?"
+        },
+        {
+          "text": "Quem é qualificado para fazer o plantio nos armazéns?"
+        },
+        {
+          "text": "Quem faz o plantio da Kube?"
+        },
+        {
+          "text": "Quero aprender como fazer o plantio adequado."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "manutencao",
+      "examples": [
+        {
+          "text": "Como posso chamar uma equipe de manutenção?"
+        },
+        {
+          "text": "Desejo programar a vinda de uma equipe de manutenção."
+        },
+        {
+          "text": "Gostaria de agendar uma visita de manutenção para verificar e resolver problemas em meu sistema de plantio."
+        },
+        {
+          "text": "Gostaria de solicitar o serviço de manutenção o mais rápido possível."
+        },
+        {
+          "text": "Preciso chamar a equipe de manutenção para consertar um equipamento danificado."
+        },
+        {
+          "text": "Quero solicitar manutenção."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "parceiros",
+      "examples": [
+        {
+          "text": "Estou interessado em saber quem são os parceiros da empresa."
+        },
+        {
+          "text": "Gostaria de saber mais sobre os parceiros da empresa e como eles estão envolvidos."
+        },
+        {
+          "text": "Poderia me explicar o papel dos parceiros da empresa e como eles são importantes para o seu sucesso"
+        },
+        {
+          "text": "Quais são as empresas ou entidades com as quais a empresa colabora e como essa colaboração beneficia ambas as partes?"
+        },
+        {
+          "text": "Quais são os parceiros da empresa e qual o papel deles no negócio?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quem_somos",
+      "examples": [
+        {
+          "text": "Como a Kube funciona?"
+        },
+        {
+          "text": "Desejo saber qual é o propósito da Kube Farm."
+        },
+        {
+          "text": "Gostaria de saber qual a funcionalidade da Kube."
+        },
+        {
+          "text": "O que exatamente isso faz?"
+        },
+        {
+          "text": "Qual é a função desse sistema de plantio?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "redes",
+      "examples": [
+        {
+          "text": "Estou interessado em seguir sua empresa, quais são os perfis sociais disponíveis?"
+        },
+        {
+          "text": "Existe algum perfil oficial nas redes sociais?"
+        },
+        {
+          "text": "Gostaria de saber onde posso te encontrar nas redes sociais."
+        },
+        {
+          "text": "Quais são as redes sociais da Kube?"
+        },
+        {
+          "text": "Quais são os canais sociais que a KubeFarm utiliza?"
+        },
+        {
+          "text": "qual a rede social de vocês?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "repo_plantio",
+      "examples": [
+        {
+          "text": "Como faço para iniciar o processo de reposição da plantação?"
+        },
+        {
+          "text": "Desejo fazer a solicitação de reposição do plantio."
+        },
+        {
+          "text": "Houve um problema com o meu plantio e gostaria de solicitar a reposição das plantas afetadas."
+        },
+        {
+          "text": "Preciso fazer a reposição das plantas. Como proceder?"
+        },
+        {
+          "text": "Quero pedir a reposição do plantio."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "solicitar_kube",
+      "examples": [
+        {
+          "text": "Como eu faço para solicitar um armazém?"
+        },
+        {
+          "text": "Gostaria de saber como posso contratar os seus serviços."
+        },
+        {
+          "text": "Me interessei na proposta do projeto. Como faço para adquiri-lo?"
+        },
+        {
+          "text": "Quero solicitar uma Kube Farm."
+        },
+        {
+          "text": "Tenho interesse em contratar a Kube para implementar um sistema avançado de plantio."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "IDContainer",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Container",
+          "patterns": [
+            "^[a-zA-ZÀ-ÿ0-9\\s',.-]{1,10}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "IDManutencao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MainEquip [1]",
+          "synonyms": [
+            "01",
+            "1",
+            "Equipamento",
+            "Ferramenta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MainIA [2]",
+          "synonyms": [
+            "02",
+            "2",
+            "AI",
+            "Inteligência Artificial",
+            "Software e Hardware",
+            "Tecnologia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "IDProduto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abobrinha",
+          "synonyms": [
+            "01",
+            "1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Agrião",
+          "synonyms": [
+            "02",
+            "2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Alface",
+          "synonyms": [
+            "03",
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Almeirão",
+          "synonyms": [
+            "04",
+            "4"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Batata",
+          "synonyms": [
+            "05",
+            "5"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Batata doce",
+          "synonyms": [
+            "06",
+            "6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Berinjela",
+          "synonyms": [
+            "07",
+            "7"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Beterraba",
+          "synonyms": [
+            "08",
+            "8"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cebola",
+          "synonyms": [
+            "09",
+            "9"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cenoura",
+          "synonyms": [
+            "10"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicória",
+          "synonyms": [
+            "11"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Couve",
+          "synonyms": [
+            "12"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Espinafre",
+          "synonyms": [
+            "13"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Feijão",
+          "synonyms": [
+            "14"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inhame",
+          "synonyms": [
+            "15"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Morango",
+          "synonyms": [
+            "16"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pepino",
+          "synonyms": [
+            "17"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pimentão",
+          "synonyms": [
+            "18"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rabanete",
+          "synonyms": [
+            "19"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rúcula",
+          "synonyms": [
+            "20"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tomate",
+          "synonyms": [
+            "21"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Mensagem",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "mensagem",
+          "patterns": [
+            "^[a-zA-Z0-9\\s\\.\\,\\!\\?\\-\\(\\)\\[\\]@#$%&*+=;:'\"<>]{0,280}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "timezone": "America/Sao_Paulo"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1685531169562"
+      },
+      "conditions": "welcome ||       input.text==\"/start\" ||    input.text==\"/inicio\" ||  input.text==\"/início\"",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1685986560289",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1685980133291",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1685980133295",
+      "previous_sibling": "handler_4_1685980133295"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1685980135389",
+      "context": {
+        "IDProduto_4": "@IDProduto"
+      },
+      "conditions": "@IDProduto",
+      "event_name": "input",
+      "dialog_node": "handler_10_1685980135391"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Email:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1686142318492",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1686142318503",
+      "previous_sibling": "handler_3_1686142318503"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1685980135389",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1685980135391",
+      "previous_sibling": "handler_10_1685980135391"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1685980138253",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1685980138255",
+      "previous_sibling": "handler_7_1685980138255"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1686142318492",
+      "context": {
+        "Email": "@Email.literal"
+      },
+      "conditions": "@Email",
+      "event_name": "input",
+      "dialog_node": "handler_3_1686142318503"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o ID do Produto?"
+              }
+            ],
+            "response_type": "text"
+          },
+          {
+            "source": "https://media.discordapp.net/attachments/1075996497407123509/1115302787656450108/904cfedf-7a5a-41ec-99c9-acf28fbbcb7e.png?width=768&height=297",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "slot_7_1685979211006",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1685979211009",
+      "previous_sibling": "handler_5_1685979211009"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1685980133291",
+      "context": {
+        "IDProduto_3": "@IDProduto"
+      },
+      "conditions": "@IDProduto",
+      "event_name": "input",
+      "dialog_node": "handler_4_1685980133295"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1685979139070",
+      "context": {
+        "IDContainer": "@IDContainer.literal"
+      },
+      "conditions": "@IDContainer",
+      "event_name": "input",
+      "dialog_node": "handler_5_1685979139084"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1685979211006",
+      "context": {
+        "IDProduto": "@IDProduto"
+      },
+      "conditions": "@IDProduto",
+      "event_name": "input",
+      "dialog_node": "handler_5_1685979211009"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1685980118482",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1685980118483",
+      "previous_sibling": "handler_6_1685980118483"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ID do Container:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1685979139070",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1685979139084",
+      "previous_sibling": "handler_5_1685979139084"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1685980118482",
+      "context": {
+        "IDProduto_2": "@IDProduto"
+      },
+      "conditions": "@IDProduto",
+      "event_name": "input",
+      "dialog_node": "handler_6_1685980118483"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1685985570153",
+      "context": {
+        "IDManutencao": "@IDManutencao"
+      },
+      "conditions": "@IDManutencao",
+      "event_name": "input",
+      "dialog_node": "handler_6_1685985570155"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1685980138253",
+      "context": {
+        "IDProduto_5": "@IDProduto"
+      },
+      "conditions": "@IDProduto",
+      "event_name": "input",
+      "dialog_node": "handler_7_1685980138255"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite: (1) Manutenção de Equipamentos  ou  (2) Manutenção de IA"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1685985570153",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1685985570155",
+      "previous_sibling": "handler_6_1685985570155"
+    },
+    {
+      "type": "standard",
+      "title": "Parceiros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Microsoft:\n\nFornecimento de equipamentos de hardware e software (AI)\n\n\nHeinz:\n\nO fornecimento, transporte e distribuição dos insumos agrícolas (sementes, mudas, adubos, equipamentos, etc).\n\n\nCaça-Fome:\n\nGestão dos containers junto dos profissionais agrícolas, cadastramento e acompanhamento das escolas e comunidades atendidas pelo projeto, intermédio com prefeituras, Centros de Referência de Assistência Social (CRAS)  e entrega de resultados.\n\n\nGoverno do Estado de São Paulo:\n\nAquisição dos containers, licitações e convocações de empresas para adaptação dos containers em containers-estufas, levantamento, ordenação e cadastramento de escolas e áreas vulneráveis passíveis de receber o projeto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#parceiros",
+      "dialog_node": "node_10_1685988951250",
+      "previous_sibling": "node_6_1685987251893"
+    },
+    {
+      "type": "standard",
+      "title": "Quem Somos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Projeto Kube Farm tem como objetivo fomentar o acesso de pessoas a uma dieta alimentar saudável, natural e livre de agrotóxicos, seja para escolas públicas, comunidades carentes, quilombolas, regiões afetadas pelo clima ou de extrema pobreza, através da agricultura inteligente ou agricultura 5.0.\nNosso projeto consiste na instalação de containers-estufas providos de inteligência artificial com sistema de controle otimizado de rotinas para irrigação, temperatura, umidade e luminosidade para plantio indoor de vegetais, tubérculos e hortaliças.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media.discordapp.net/attachments/1075996497407123509/1115171295450124288/Component_4.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#quem_somos",
+      "dialog_node": "node_1_1685421576237",
+      "previous_sibling": "node_8_1685531169562"
+    },
+    {
+      "type": "frame",
+      "title": "Solicitar a KubeFarm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$nome,\nFique atento(a) ao seu e-mail ($Email) para receber as informações  para prosseguir com esse processo.\n\nContato Kube:\nRedes sociais: (KubeFarmOficial)\nTelefone: (11)3646-1722\n\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#solicitar_kube",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1685421841614",
+      "previous_sibling": "node_1_1685421576237"
+    },
+    {
+      "type": "standard",
+      "title": "ww",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome! Em que posso te ajudar hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685531169562",
+      "context": {
+        "nome": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1685627358089"
+    },
+    {
+      "type": "frame",
+      "title": "Reposição do Plantio",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#repo_plantio || #fazer_plantio",
+      "dialog_node": "node_4_1685422296548",
+      "previous_sibling": "node_3_1685421841614"
+    },
+    {
+      "type": "standard",
+      "title": "KubeFarmOficial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Siga a Kube Farm nas redes sociais para ficar por dentro de notícias e atualizações! \n(KubeFarmOficial)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#redes",
+      "dialog_node": "node_6_1685987251893",
+      "previous_sibling": "node_8_1685422047052"
+    },
+    {
+      "type": "frame",
+      "title": "Manutenção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "[01] Para  solicitar a manutenção de ferramentas, nós enviaremos um profissional qualificado para realizar esse serviço em até 24h. \n\n[02] Para  solicitar a manutenção de IA, nós entraremos em contato com a nossa equipe e solucionaremos o problema em até 48h. \n\nA  opção selecionada foi ($IDManutencao)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#manutencao",
+      "dialog_node": "node_8_1685422047052",
+      "previous_sibling": "node_4_1685422296548"
+    },
+    {
+      "type": "standard",
+      "title": "Boas-Vindas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_8_1685531169562",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Encerrar o Atendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A KubeFarm agradece a preferência! Atendimento encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#encerrar_atendimento",
+      "dialog_node": "node_9_1685986560289",
+      "previous_sibling": "node_10_1685988951250"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ID Container: $IDContainer\nID Produto(s) Solicitado(s): $IDProduto $IDProduto_2 $IDProduto_3 $IDProduto_4 $IDProduto_5\n\nPara realizar o plantio ou a reposição dele, nós enviaremos um profissional qualificado para realizar esse serviço em até 24h. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685422296548",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1686085810471",
+      "previous_sibling": "response_4_1686085830830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa tarde! Me chamo Kubee e sou o assistente virtual da KubeFarm.  Qual o seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685531169562",
+      "conditions": "now().after('12:00:00') && now().before('18:00:00')",
+      "dialog_node": "response_2_1685531300144",
+      "previous_sibling": "response_3_1685531285552"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bom dia! Me chamo Kubee e sou o assistente virtual da KubeFarm.  Qual o seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685531169562",
+      "conditions": "now().after('06:00:00') && now().before('12:00:00')",
+      "dialog_node": "response_3_1685531285552",
+      "previous_sibling": "node_3_1685627358089"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa noite! Me chamo Kubee e sou o assistente virtual da KubeFarm.  Qual o seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685531169562",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1685531307924",
+      "previous_sibling": "response_2_1685531300144"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1685422296548",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1685986560289"
+      },
+      "conditions": "#encerrar_atendimento",
+      "dialog_node": "response_4_1686085830830"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1685422296548",
+      "variable": "$IDProduto_2",
+      "dialog_node": "slot_10_1685980118482",
+      "previous_sibling": "slot_7_1685979211006"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1685422296548",
+      "variable": "$IDProduto_3",
+      "dialog_node": "slot_10_1685980133291",
+      "previous_sibling": "slot_10_1685980118482"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1685421841614",
+      "variable": "$Email",
+      "dialog_node": "slot_2_1686142318492"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1685422296548",
+      "variable": "$IDContainer",
+      "dialog_node": "slot_4_1685979139070",
+      "previous_sibling": "response_1_1686085810471"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1685422296548",
+      "variable": "$IDProduto_5",
+      "dialog_node": "slot_5_1685980138253",
+      "previous_sibling": "slot_6_1685980135389"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1685422296548",
+      "variable": "$IDProduto_4",
+      "dialog_node": "slot_6_1685980135389",
+      "previous_sibling": "slot_10_1685980133291"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1685422047052",
+      "variable": "$IDManutencao",
+      "dialog_node": "slot_6_1685985570153"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1685422296548",
+      "variable": "$IDProduto",
+      "dialog_node": "slot_7_1685979211006",
+      "previous_sibling": "slot_4_1685979139070"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Kubee-dialog"
+}
